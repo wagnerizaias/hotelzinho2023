@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../xampp/htdocs/hotelzinho/controller"
+		},
+		{
+			"path": "../../../../../xampp/htdocs/hotelzinho/model"
+		},
+		{
+			"path": "../../../../../xampp/htdocs/hotelzinho/view"
+		}
+	],
+	"settings": {}
+}

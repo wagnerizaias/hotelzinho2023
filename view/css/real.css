@@ -1,0 +1,793 @@
+
+body { background-image: url(//../imagem/arco.jpg);  
+    
+	background-color: #00bcd4;
+	opacity: 0,1;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+	
+	h1{text-align: center;
+	color:rgb(53, 3, 78);
+	}
+	
+	h2{
+	text-align: center;
+	color:rgb(32, 25, 32);
+	}
+	
+	h3{
+		color: rgb(37, 37, 37);
+		text-align: center;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		h4{
+			color: rgb(37, 37, 37);
+			text-align: center;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+
+table{	background-position: center;
+	
+}
+
+	p{
+	text-align: center;
+	}
+	form{
+	text-align: center;
+	color: #222;
+	text-decoration: black;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	main{
+	min-width: 20px;
+	padding: 800px;
+	margin: auto;
+	}
+	
+	img {border: 3px solid #ece4ec;
+		border-radius: 10%;
+	}
+	#hotelzinho{
+	color: fuchsia;
+	text-align: center;
+	margin:auto;
+	height: 100%;
+	width: 1000px;
+	}
+	section{
+	color: black;
+	}
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+	
+	body{
+	background-color:#f9f9f9;
+	}
+	
+	input{
+		border: 2px solid #f5c8f5;
+		border-radius: 8%;
+		text-align: center;
+	}
+	
+	textarea{ 
+		text-align: center;}
+
+	#icone {
+	cursor: pointer;
+	padding: 25px;
+	position: absolute;
+	z-index: 1;
+	}
+
+
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 2000px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+	
+	#check{
+	display: none;
+	background-color: #f00;
+	}
+	
+	.barra{
+	background-color: rgba(94, 175, 164, 0.048);
+	height: 100%;
+	width: 160px;
+	position: absolute;
+	left: -300px;
+	transition: all .2s linear;
+	}
+	
+	.barra .link{
+	list-style: none;
+	background-color: #494950;
+	}
+	
+	nav{
+	width: 100%;
+	position: absolute;
+	top: 60px;
+	}
+	nav a{
+	text-decoration: none;
+	}
+	
+	#menu-h{
+		width: 100%;
+		position: absolute;
+		top: 6px;
+		text-decoration: none;
+		
+		}
+	.link{
+	color: #f4f4f9;
+	font-family: 'Arial';
+	font-size: 18pt;
+	padding: 10px;
+	border-bottom: 2px solid #222;
+	transition:  all .2s linear;
+	opacity: 0;
+	margin-top: 200px;
+	}
+	.link:hover{
+	background-color: #050542;
+	}
+	
+	#check:checked ~ .barra nav a .link{
+	opacity: 1;
+	margin-top: 0;
+	transition-delay: .2s;
+	}
+	
+	#check:checked ~ .barra{
+	transform: translateX(300px);
+	}
+	
+	*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	
+	a{
+	text-decoration: none;
+	}
+	
+	form{
+	border-radius: 10%;	
+	}
+	
+	#area{
+	border-radius: 6%;
+	background-image: url(../imagem/arco.jpg); color: rgb(133, 172, 199); 
+	opacity:0,5;
+	background-position: center;
+	display: nome;
+	background-color:rgb(83, 162, 219); color: rgb(45, 98, 221); 
+	font-size: 22pt;
+	text-align: center;
+	font-family:Georgia,'Times New Roman', Times, serif;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	top: 100%;
+	width: 30%;
+	height : 80% ;
+	border: 3px solid #f05af0;
+	
+	}
+	
+	#areaa{
+		border-radius: 9%;
+		background-image: url(../imagem/arco.jpg); color: rgb(133, 172, 199); 
+		opacity:0,5;
+		background-position: center;
+		display: nome;
+		background-color:rgb(83, 162, 219); color: rgb(45, 98, 221); 
+		font-size: 16pt;
+		text-align: center;
+		font-family:Georgia,'Times New Roman', Times, serif;
+		text-align: center;
+		position: relative;
+		margin: 0 auto;
+		top: 100%;
+		width: 60%;
+		height : 70% ;
+		border: 3px solid #f05af0;
+		
+		}
+
+	#area #formulario{
+	position: relative;
+	display: block;
+	}
+	
+	
+	#real{
+	border-radius: 6%;
+
+	background-image: url(../imagem/aaa.jpg); color: rgb(1, 9, 27);
+
+	background-position: center;
+	background-repeat:repeat-x;
+	display: nome;
+	background-color:rgba(25, 76, 172, 0.98); color: rgb(2, 7, 17);
+	font-size: 20pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	margin: 0 auto;
+	top:100%;
+	width: 30%;
+	height: 70%;
+	border: 3px solid #f05af0;
+	}
+	
+	#ad{
+		border-radius: 6%;
+		background-image: url(../imagem/2.JPG); color: rgb(1, 9, 27);
+		opacity:0.9;
+		background-position: center;
+		background-repeat:repeat-x;
+		display: nome;
+		background-color:rgba(25, 76, 172, 0.98); color: rgb(2, 7, 17);
+		font-size: 22pt;
+		text-align: center;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		position: relative;
+		margin: 0 auto;
+		top:20%;
+		width: 40%;
+		height: 40%;
+		border: 3px solid #f05af0;
+		}
+
+		#tr{
+			border-radius: 6%;
+			background-image: url(../imagem/2.JPG); color: rgb(1, 9, 27);
+			opacity:0.8;
+			background-position: center;
+			background-repeat:repeat-x;
+			display: nome;
+			background-color:rgba(25, 76, 172, 0.98); color: rgb(2, 7, 17);
+			font-size: 22pt;
+			text-align: center;
+			font-family:Georgia, 'Times New Roman', Times, serif;
+			position: relative;
+			margin: 0 auto;
+			top:20%;
+			width: 70%;
+			height: 70%;
+			border: 3px solid #f05af0;
+			}
+	
+
+		#ex{
+			border-radius: 6%;
+			background-image: url(../imagem/2.JPG); color: rgb(1, 9, 27);
+			opacity:0.8;
+			background-position: center;
+			background-repeat:repeat-x;
+			display: nome;
+			background-color:rgba(25, 76, 172, 0.98); color: rgb(2, 7, 17);
+			font-size: 22pt;
+			text-align: center;
+			font-family:Georgia, 'Times New Roman', Times, serif;
+			position: relative;
+			margin: 0 auto;
+			top:20%;
+			width: 70%;
+			height: 70%;
+			border: 3px solid #f05af0;
+			}
+	
+
+
+	.holder {
+	display: flex;
+	justify-content: center;
+	}
+	.escola {
+	width: 200px;
+	margin: 10px;
+	position: relative;
+	text-align: center;
+	 }
+	.escola::after {
+	content: attr(data-title); 
+	position: absolute;
+	width: 100%;
+	bottom: -20px;
+	left: 0;
+	}
+	
+	#escola{
+	border-radius: 5%;
+	background-image: url(//../imagem/coloo.jpg); color: rgb(155, 11, 148); 
+	opacity:0,0;
+	background-position: center;
+	background-color:rgb(230, 130, 243, 0.80); color: rgb(2, 7, 17);
+	font-size: 22pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	top:100%;
+	width: 70%;
+	height:  46%;
+	border: 3px solid #ebaceb	
+	
+	}
+	 
+	#escola1{
+	border-radius: 5%;
+	background-image: url(//../imagem/a.jpg); color: rgb(19, 8, 18); 
+	opacity:0,01;
+	background-position: center;
+	background-color:rgb(82, 121, 228,0.80); color: rgb(16, 18, 20);
+	font-size: 26pt;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	top:100%;
+	width: 82%;
+	height:  40%;
+	border: 3px solid #3b083b;	
+	}
+	
+	#rodape {
+	background-color: rgb(170, 75, 173);
+	border-top: 3px solid #3b083b;
+	text-align:left;
+	padding: 10px;
+	margin-block-start:auto ;
+	position: fixed;
+	bottom: 0;
+	width: 100%; 
+	}
+	
+	ul {list-style-type: none;}
+	body {font-family: Verdana, sans-serif;}
+	
+	
+	.month {
+	  padding: 28px 10px;
+	  width: 100%;
+	  text-align: center;
+	}
+	
+	
+	.month ul {
+	  margin: 0;
+	  padding: 0;
+	}
+	
+	.month ul li {
+	  color: rgb(31, 48, 145);
+	  font-size: 20px;
+	  text-transform: uppercase;
+	  letter-spacing: 5px;
+	}
+	
+	
+	.month .prev {
+	  float: left;
+	  padding-top: 12px;
+	}
+	
+	
+	.month .next {
+	  float: right;
+	  padding-top: 10px;
+	}
+	
+	
+	.weekdays {
+	  margin: 0;
+	  padding: 10px 0;
+	  background-color:#ddd;
+	}
+	
+	.weekdays li {
+	  display: inline-block;
+	  width: 10%;
+	  color: #666;
+	  text-align: center;
+	}
+	
+	
+	.days {
+	  padding: 10px 0;
+	  background: #eee;
+	  margin: 0;
+	}
+	
+	.days li {
+	  list-style-type: none;
+	  display: inline-block;
+	  width: 12.6%;
+	  text-align: center;
+	  margin-bottom: 5px;
+	  font-size:14px;
+	  color: #777;
+	}
+	
+	.days li .active {
+	  padding: 5px;
+	  background: #1abc9c;
+	  color: white !important
+	}
+
+	.days li .ac {
+		padding: 5px;
+		background: #c70f0f;
+		color: white !important
+	  }
+
+
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  
+	  .heading {
+		font-size: 25px;
+		margin-right: 25px;
+	  }
+	  
+	  .fa {
+		font-size: 25px;
+	  }
+	  
+	  .checked {
+		color: orange;
+	  }
+	  
+	
+	  .side {
+		float: left;
+		width: 15%;
+		margin-top: 10px;
+	  }
+	  
+	  .middle {
+		float: left;
+		width: 70%;
+		margin-top: 12px;
+	  }
+	  
+	  
+	  .right {
+		text-align: right;
+	  }
+	  
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	  
+	  
+	  .bar-container {
+		width: 100%;
+		background-color: #f1f1f1;
+		text-align: center;
+		color: white;
+	  }
+	  
+
+	  
+	#av{
+		border-radius: 2%;
+		background-image: url(../imagem/arco.jpg);
+		opacity:0,05;
+		background-position: center;
+		background-repeat:repeat-x;
+		display: nome;
+		font-size: 26pt;
+		text-align: center;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		position: relative;
+		margin: 0 auto;
+		top:100%;
+		width: 82%;
+		height: 80%;
+		border: 3px solid #f05af0;
+		}
+	 
+	  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+	  .bar-4 {width: 30%; height: 18px; background-color: #053e6d;}
+	  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+	  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+	  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+	  
+	  
+	  @media (max-width: 200px) {
+		.side, .middle {
+		  width: 990%;
+		}
+		
+		.right {
+		  display: none;
+		}
+	  }
+	
+	#footer {width:99%; }
+	@media (min-width: 992px) {  }
+	@media (min-width: 400px) {}
+	@media (min-width: 768px) {}
+	#wrapper {width:99%;  margin: 0 auto; }
+	#wrapper {width:0%;  margin: 0 auto; }
+	#content {width:99%; }
+	#content {width:60%; float:left; }
+	#sidebar {width:100%; }
+	#sidebar {width:0%; float:right; }
+	#header {width:99%; }
+	#header {width:0%; }
+	
+
+#ca{
+    border-radius: 2%;
+    background-image: url(../imagem/arco.jpg); color: rgb(45, 98, 221);
+    background-color: rgb(170, 75, 173);
+    opacity:0,05;
+	background-position: center;
+    background-repeat:repeat-x;
+    display: nome;
+    font-size: 12pt;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin:  auto;
+    top:100%;
+    width: 70%;
+    height:20%;
+    border: 3px solid #f05af0;
+    }
+
+#us{
+		border-radius: 2%;
+		background-image: url(../imagem/arco.jpg); color: rgb(45, 98, 221);
+		background-color: rgb(170, 75, 173);
+		background-position: center;
+		background-repeat:repeat-x;
+		display: nome;
+		font-size: 10pt;
+		text-align: center;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		position: relative;
+		margin: 0 auto;
+		top:100%;
+		width: 60%;
+		height:20%;
+		border: 3px solid #f05af0;
+		}
+
+	ul {list-style-type: none;}
+	body {font-family: Verdana, sans-serif;}
+	
+	
+	.month {
+		
+	  padding: 22px 10px;
+	  width: 80%;
+	  text-align: center;
+	}
+	
+	
+	.month ul {
+	  margin: 0;
+	  padding: 0;
+	}
+	
+	.month ul li {
+	  color: rgb(31, 48, 145);
+	  font-size: 20px;
+	  text-transform: uppercase;
+	  letter-spacing: 5px;
+	}
+	
+	
+	.month .prev {
+	  float: left;
+	  padding-top: 12px;
+	}
+	
+	
+	.month .next {
+	  float: right;
+	  padding-top: 10px;
+	}
+	
+	
+	.weekdays {
+	  margin: 0;
+	  padding: 10px 0;
+	  background-color:#ddd;
+	}
+	
+	.weekdays li {
+	  display: inline-block;
+	  width: 13.6%;
+	  color: #666;
+	  text-align: center;
+	}
+	
+	
+	.days {
+	  padding: 10px 0;
+	  background: #eee;
+	  margin: 0;
+	}
+	
+	.days li {
+	  list-style-type: none;
+	  display: inline-block;
+	  width: 13.6%;
+	  text-align: center;
+	  margin-bottom: 5px;
+	  font-size:14px;
+	  color: #777;
+	}
+	
+	.days li .active {
+	  padding: 5px;
+	  background: #1abc9c;
+	  color: white !important
+	}
+
+	.days li .ac {
+		padding: 5px;
+		background: #c70f0f;
+		color: white !important
+	  }
+
+
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  
+	  .heading {
+		font-size: 25px;
+		margin-right: 25px;
+	  }
+	  
+	  .fa {
+		font-size: 25px;
+	  }
+	  
+	  .checked {
+		color: orange;
+	  }
+	  
+	
+	  .side {
+		float: left;
+		width: 15%;
+		margin-top: 10px;
+	  }
+	  
+	  .middle {
+		float: left;
+		width: 70%;
+		margin-top: 10px;
+	  }
+	  
+	  
+	  .right {
+		text-align: right;
+	  }
+	  
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	  
+	  
+	  .bar-container {
+		width: 100%;
+		background-color: #f1f1f1;
+		text-align: center;
+		color: white;
+	  }
+	  
+
+	  
+	#av{
+		border-radius: 2%;
+		background-image: url(../imagem/arco.jpg);
+		opacity:0,05;
+		background-position: center;
+		background-repeat:repeat-x;
+		display: nome;
+		font-size: 26pt;
+		text-align: center;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		position: relative;
+		margin:  auto;
+		top:100%;
+		width: 82%;
+		height: 60%;
+		border: 3px solid #f05af0;
+		}
+	 
+	  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+	  .bar-4 {width: 30%; height: 18px; background-color: #053e6d;}
+	  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+	  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+	  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+	  
+	  
+	  @media (max-width: 400px) {
+		.side, .middle {
+		  width: 100%;
+		}
+		
+		.right {
+		  display: none;
+		}
+	  }
+	
+
+	  #vi{
+		border-radius: 2%;
+		background-image: url(../imagem/aaa.jpg); color: rgb(9, 11, 17);
+		background-color: rgb(170, 75, 173,0.99);
+		background-position: center;
+		background-repeat:repeat-x;
+		display: nome;
+		font-size: 17pt;
+		text-align: center;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		position: relative;
+		margin: 0 auto;
+		top:100%;
+		width: 90%;
+		height:60%;
+		border: 3px solid #f05af0;
+		}

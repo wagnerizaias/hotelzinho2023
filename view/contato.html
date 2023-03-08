@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../view/css/teste.css">
+    <title>cadastro</title>
+
+</head>
+
+<input type="checkbox" id="check">
+<label for="check" id="icone"><img src="../view/imagem/ba.JPG"alt= " imagem" height="30" width="40"></label>
+
+<div class="barra">	
+	<nav>
+    <a href="hotelzinho.html"><div class="link">Home</div></a>
+    <a href="https://api.whatsapp.com/send?phone=5519987075090&app=facebook&entry_point=page_cta&fbclid=IwAR3nSaBx_VBNHNEyS9KpsAuvQgcZIrPWioEQkFf_I7q8CIktmN4z0GcXKqk"><div class="link">Whatsapp</div></a>
+    <a href="https://www.google.com/maps/dir//-22.8364042,-47.1590028/@-22.8322823,-47.2067979,13z"><div class="link">Localização</div></a>
+    <a href="Login.html"><div class="link">Login</div></a>
+	</nav>	
+</div><br><br>
+
+<h1>Ficha Pre matricula Aluno:</h1><BR><br><br>
+    <h3><a href="https://www.facebook.com/Hotelzinho-Infantil-Jardim-da-Alegria-1785110238450229/">
+        <img src="../view/imagem/th.jpg" alt="imagem" height="80" width="70"></a></h3> <br>
+
+<div id="area"><br><br>
+       
+    <form action="../controller/controller_cadastrar.php" method ="post" >  
+    
+    <div class="field">
+    <label for="Nome">Responsável:</label>
+    <input type="text" id="responsal" name="responsalvel" placeholder="*Digite nome Responsável*" required>
+    </div>
+    <div class="field">
+    <label for="Endereco"> Seu Endereço:</label>
+    <input type="text" id="Endereço" name="Endereco" placeholder="*Digite seu Endereço*" required>
+    </div>
+    <div class="field">
+    <label for="Digite seu CPF">CPF:</label>
+    <input type="text" id="CPF" name="CPF" placeholder="*Digite seu CPF*" required>
+    </div>
+    
+    
+    <div class="field">
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone" placeholder="*Digite seu Telefone">
+    </div>
+
+    <div class="field">
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" placeholder="*Digite seu E-Mail*" required>
+    </div>
+
+    <div class="field"> 
+    <label for="Horario">Horário:</label>       
+    <input type="text"id="horario" name="horario" placeholder="*Digite Manha ou Tarde*"><br>  
+    </div>
+    <div class="field">
+    <label for="Criança">Criança:</label>
+    <input type="text" id="nome" name="nome" placeholder="*Digite nome Criança*" required>
+    </div>
+
+    <div class="fied">
+    <label for="data">Nascimento da Criança:</label>
+    <input id="date"type='date' name="date" placeholder="">
+</div><br>
+<label for="data">Mensagem:</label>
+<textarea name="mensagem" id="mensagem" placeholder="*Mensagem*" required></textarea><br>
+
+<h2><input type="submit" value="  Cadastro  " name="Enviar"></h2>
+
+</form>
+
+<form action="Login.html">
+<h2><input type="submit" value="  login   " /></h2>
+</form><br><br>
+
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer id="rodape"> 
+<h4 style="color: blue;">Feito por:BIT...</h4>
+</footer>
+  
+</body>
+</html>
